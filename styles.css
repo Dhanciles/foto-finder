@@ -1,0 +1,116 @@
+/* Universal / Reset  */
+* {
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box
+}
+/* Add Photos Container */
+.add-search-container {
+  background-color: #3E2A35; 
+}
+
+.top-container {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+/* Logo Styling */
+.logo-container {
+  display: flex; 
+  padding: 5px; 
+}
+
+h1 {
+  font-family: 'Opens Sans', sans-serif; 
+  font-weight: 800; 
+  color: white; 
+}
+
+.app-logo {
+  width: 20px; 
+  height: 20px;
+  margin: 3px 3px 1px 3px; 
+}
+
+/* Search Area */
+.search {
+  border: 2px solid #938384; 
+  border-radius: 5px; 
+}
+.search-button {
+  background-color: #C2B2B4; 
+  margin: 0; 
+}
+.search-icon {
+  width: 15px; 
+  height: 15px; 
+}
+
+/* Add Photos Form */
+.add-photo-form {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+form input {
+  width: 200px; 
+  min-width: 200px;
+}
+
+form label {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1rem; 
+  font-weight: 600;
+  color: white; 
+  text-align: left; 
+}
+.upload-file-input {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.upload-file-input + label {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1rem; 
+  font-weight: 600;
+  color: white;  
+  cursor: pointer; 
+  background-color: #938284;
+  padding: 5px; 
+  margin-top: 10px; 
+  width: 200px; 
+  min-width: 200px;
+  text-align: center; 
+}
+
+/* Buttons In Add Container */
+.buttons-container {
+  display: flex; 
+  justify-content: center; 
+}
+
+.buttons-container button {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1rem; 
+  font-weight: 600;
+  color: white;  
+  cursor: pointer; 
+  background-color: #938284;
+  padding: 5px; 
+  margin: 10px 0 8px 10px;  
+  width: 200px; 
+  min-width: 200px;
+  text-align: center;
+  border: none; 
+}
+
+/* Added Photos Container  */
+main {
+  background-color: #C2B2B4; 
+}
+
