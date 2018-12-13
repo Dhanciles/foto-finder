@@ -3,12 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>Foto Finder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   <script src="main.js"></script>
 </head>
 <body>
-  
+  <section class="add-search-container">
+    <div class="top-container">
+      <div class="logo-container">
+        <h1>FOTO</h1>
+        <img src="assets/foto-finder-logo.svg" alt="a burgundy camera icon" class="app-logo">
+        <h1>FINDER</h1>
+      </div>
+      <div class="search-container">
+        <input type="text" class="search" name="seach">
+        <button class="search-button"><img src="assets/search-icon.svg" alt="a magnifying glass used for our search button" class="search-icon"></button>
+      </div>
+    </div>
+    <form class="add-photo-form">
+      <label for="photo-title">Title</label>
+      <input type="text" class="add-photo-input" id="photo-title" name="photo-title"/>
+      <label for="photo-caption">Caption</label>
+      <input type="text" class="add-photo-input" id="photo-caption" name="photo-caption"/>
+      <input type="file" name="file" id="file"class="upload-file-input"/>
+      <label for="file">Choose A File</label>
+    </form>
+    <div class="buttons-container">
+      <button class="view-favorites-button">View Favorites</button>
+      <button class="add-to-album-button">Add to Album</button>
+    </div>
+  </section>
+  <main class="added-photos">
+  </main>
 </body>
 </html>
